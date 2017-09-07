@@ -56,7 +56,7 @@
 - (NSArray *)cellSizes {
   if (!_cellSizes) {
     _cellSizes = @[
-      [NSValue valueWithCGSize:CGSizeMake(550, 550)],
+      [NSValue valueWithCGSize:CGSizeMake(650, 750)],
       [NSValue valueWithCGSize:CGSizeMake(1000, 865)],
       [NSValue valueWithCGSize:CGSizeMake(524, 689)],
       [NSValue valueWithCGSize:CGSizeMake(640, 427)]

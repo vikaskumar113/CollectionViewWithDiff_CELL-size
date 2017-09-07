@@ -17,6 +17,10 @@
     _imageView.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
     _imageView.contentMode = UIViewContentModeScaleAspectFill;
     [_imageView.layer setMasksToBounds:YES];
+      _imageView.layer.cornerRadius = 18.0;
+      _imageView.layer.borderColor = [[UIColor blueColor] CGColor];
+      _imageView.layer.borderWidth = 1.0;
+      _imageView.layer.masksToBounds = YES;
   }
   return _imageView;
 }

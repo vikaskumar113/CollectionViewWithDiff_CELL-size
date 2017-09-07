@@ -101,6 +101,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		409E6C311F615A9D007A0A10 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				40D9C5B31F61572F005E859F /* cat4.jpg */,
+				40D9C5B41F61572F005E859F /* cat3.jpg */,
+				40D9C5B51F61572F005E859F /* cat2.jpg */,
+				40D9C5B61F61572F005E859F /* cat1.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		409E6C321F615AAE007A0A10 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				40D9C5A21F61518A005E859F /* CHTCollectionViewWaterfallLayout.h */,
+				40D9C5A31F61518A005E859F /* CHTCollectionViewWaterfallLayout.m */,
+				40D9C5991F615182005E859F /* CHTCollectionViewWaterfallCell.h */,
+				40D9C59A1F615182005E859F /* CHTCollectionViewWaterfallCell.m */,
+				40D9C59B1F615182005E859F /* CHTCollectionViewWaterfallHeader.h */,
+				40D9C59C1F615182005E859F /* CHTCollectionViewWaterfallHeader.m */,
+				40D9C59D1F615182005E859F /* CHTCollectionViewWaterfallFooter.h */,
+				40D9C59E1F615182005E859F /* CHTCollectionViewWaterfallFooter.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 		40D9C55A1F615171005E859F = {
 			isa = PBXGroup;
 			children = (
@@ -124,18 +150,8 @@
 		40D9C5651F615171005E859F /* Diff_SizeCELL_Collectionview */ = {
 			isa = PBXGroup;
 			children = (
-				40D9C5B31F61572F005E859F /* cat4.jpg */,
-				40D9C5B41F61572F005E859F /* cat3.jpg */,
-				40D9C5B51F61572F005E859F /* cat2.jpg */,
-				40D9C5B61F61572F005E859F /* cat1.jpg */,
-				40D9C5A21F61518A005E859F /* CHTCollectionViewWaterfallLayout.h */,
-				40D9C5A31F61518A005E859F /* CHTCollectionViewWaterfallLayout.m */,
-				40D9C5991F615182005E859F /* CHTCollectionViewWaterfallCell.h */,
-				40D9C59A1F615182005E859F /* CHTCollectionViewWaterfallCell.m */,
-				40D9C59B1F615182005E859F /* CHTCollectionViewWaterfallHeader.h */,
-				40D9C59C1F615182005E859F /* CHTCollectionViewWaterfallHeader.m */,
-				40D9C59D1F615182005E859F /* CHTCollectionViewWaterfallFooter.h */,
-				40D9C59E1F615182005E859F /* CHTCollectionViewWaterfallFooter.m */,
+				409E6C321F615AAE007A0A10 /* Classes */,
+				409E6C311F615A9D007A0A10 /* Images */,
 				40D9C5691F615172005E859F /* AppDelegate.h */,
 				40D9C56A1F615172005E859F /* AppDelegate.m */,
 				40D9C5A51F61519D005E859F /* ViewController.h */,
@@ -553,6 +569,7 @@
 				40D9C5921F615173005E859F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40D9C5931F615173005E859F /* Build configuration list for PBXNativeTarget "Diff_SizeCELL_CollectionviewTests" */ = {
 			isa = XCConfigurationList;
@@ -561,6 +578,7 @@
 				40D9C5951F615173005E859F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40D9C5961F615173005E859F /* Build configuration list for PBXNativeTarget "Diff_SizeCELL_CollectionviewUITests" */ = {
 			isa = XCConfigurationList;
@@ -569,6 +587,7 @@
 				40D9C5981F615173005E859F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
