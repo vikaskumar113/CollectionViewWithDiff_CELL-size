@@ -1,5 +1,7 @@
 # CollectionViewWithDiff_CELL-size
-![simulator screen shot 07-sep-2017 4 04 54 pm](https://user-images.githubusercontent.com/16588047/30159279-a81e5e46-93e5-11e7-8be7-fd68fb544a31.png)
+![simulator screen shot 07-sep-2017 4 17 07 pm](https://user-images.githubusercontent.com/16588047/30159809-942b9834-93e7-11e7-9bcc-ca92ec097b94.png)
+
+
 
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
